@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BCIT: Contact Page</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" href="images/logo.png">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playball|Raleway" rel="stylesheet">
+    </head>
+
+    <body >
+    <main>
+        <header>
+            <a href="index.html" class="bcit-logo">
+                <img src="images/logo.png" alt="BCIT">
+                <h2>Build Your Career</h2>
+            </a>
+            <button class="nav-btn-fixed-top" onclick="showNav()"><i class="fa  fa-bars"></i></button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html"> <img src="images/logo.png" alt="bcit logo"></a></li>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="outline.html"> Outline</a></li>
+                    <li><a href="schedule.html"> Schedule</a></li>
+                    <li><a href="lesson1.html"> Lessons</a></li>
+                    <li><a href="contact-us.html"> Contact</a></li>
+                    <li><a href="https://github.com/ErAmandeepKaur/Final-Project"> Github</a></li>					
+                </ul>
+            </nav>
+        </header>
+        <section class="large-pic contact-bg">
+            <h1>
+                Give Us A Shout
+            </h1>
+            <p class="color-white">
+                Talk With An Advisor |
+                Financial Aid |
+                Register
+            </p>
+        </section>
+
+        <div class="contact-content">
+
+            <article class="info-block">
+                <h1 class=" align-left">Instructor Information</h1>
+                <p>
+                    Instructor: Michael Whyte
+                </p>
+                <p>
+                    Email: mywhyte13@learn.bcit.ca
+                </p>
+
+            </article>
+
+            <section class="contact-section">
+
+                <h2 class="title">Drop Us an Enquiry</h2>
+                <form action="" class="contact-form">
+                    <table class="contact-table" align="center" width="100%">
+                        <tr>
+                            <td>
+                                <input class="textbox-style" pattern="[A-Za-z]+" required type="text" placeholder="Enter First Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input  class="textbox-style" required  type="text" pattern="[A-Za-z]+" placeholder="Enter Last Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input  class="textbox-style" required  type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Email">
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <select  class="textbox-style select-style" >
+                                    <option selected value="Prospective">Prospective</option>
+                                    <option value="Current"> Current</option>
+                                </select>
+
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <textarea  class="textbox-style"  cols="30" rows="10" placeholder="Leave A Message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Send Enquiry" class="submit-btn">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+
+        </div>
+
+
+        <footer>
+            <h2 class="course-header">Course Info</h2>
+            <h2 class="reg-header">Registration Info</h2>
+            <h2 class="address">Find Us</h2>
+            <ul class="course">
+                <li class=""><a href="outline.html" class="">Outline</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li class=""><a href="lesson1.html">Lessons</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+            <ul class="registration">
+                <li><a href="javascript:void(0)">Talk To Advisor</a></li>
+                <li><a href="javascript:void(0)">Sign Up </a></li>
+                <li><a href="javascript:void(0)">Register</a></li>
+            </ul>
+            <div class="address-info">
+                <p class="align-center">British Columbia Institue of Technology</p>
+                <p class="align-center">3700 Willingdon Avenue</p>
+                <p class="align-center">Burnaby, British Columbia</p>
+                <p class="align-center">Canada, V5G 3H2</p>
+            </div>
+            <p>&copy; 2019 BCIT </p>
+        </footer>
+
+    </main>
+
+    <div class="pop-up">
+        <h2>Data has
+            been sent.</h2>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/nav.js" ></script>
+    <script type="text/javascript" src="scripts/form.js" ></script>
+    </body>
+</html>
